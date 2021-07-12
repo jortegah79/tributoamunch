@@ -1,12 +1,12 @@
  body {
-     background: rgba(213, 199, 61, 1);
+     background: rgb(172, 141, 42);
      font-size: 1.1em;
      font-family: "Courier";
-     color: gray;
+     color: rgb(71, 55, 55);
  }
  
  #title {
-     color: white;
+     color: #d6cdcd;
      text-shadow: 3px 3px #038611;
      text-align: center;
  }
@@ -27,9 +27,9 @@
  
  a {
      text-decoration: none;
-     color: #038611;
+     color: #1b4607;
  }
  
  a:hover {
-     color: cyan;
+     color: rgb(0, 255, 13);
  }

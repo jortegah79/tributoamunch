@@ -1,35 +1,35 @@
  body {
-    background: rgba(213, 199, 61, 1);
-    font-size: 1.1em;
-    font-family: "Courier";
-    color: gray;
-}
-
-#title {
-    color: white;
-    text-shadow: 3px 3px #038611;
-    text-align: center;
-}
-
-#img-div {
-    border: 1px solid black;
-}
-
-#image {
-    width: 60%;
-    
-    border: 2px solid black;
-}
-
-#image-caption {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #038611;
-}
-
-a:hover {
-    color: cyan;
-}
+     background: rgba(213, 199, 61, 1);
+     font-size: 1.1em;
+     font-family: "Courier";
+     color: gray;
+ }
+ 
+ #title {
+     color: white;
+     text-shadow: 3px 3px #038611;
+     text-align: center;
+ }
+ 
+ #img-div {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ #image {
+     width: 400px;
+     border: 2px solid black;
+ }
+ 
+ #image-caption {
+     text-align: center;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #038611;
+ }
+ 
+ a:hover {
+     color: cyan;
+ }

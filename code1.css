@@ -1,23 +1,29 @@
  body {
-     background: rgb(172, 141, 42);
+     background: #bbb;
      font-size: 1.1em;
      font-family: "Courier";
-     color: rgb(71, 55, 55);
  }
  
  #title {
-     color: #d6cdcd;
-     text-shadow: 3px 3px #038611;
+     margin-left: 40vw;
+     margin-right: 40vw;
+     padding: 10px;
+     border: 1px solid #333;
+     border-radius: 15px 15px 35px 35px;
+     background: #999;
+     color: #777;
+     text-shadow: 3px 3px #555;
      text-align: center;
  }
  
- #img-div {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+ #tribute-info {
+     margin-left: 40px;
  }
  
  #image {
-     width: 400px;
+     position: relative;
+     left: 30vw;
+     width: 35vw;
      border: 2px solid black;
  }
  
@@ -27,9 +33,9 @@
  
  a {
      text-decoration: none;
-     color: #1b4607;
+     color: #b41313;
  }
  
  a:hover {
-     color: rgb(0, 255, 13);
+     color: rgb(79, 47, 219);
  }

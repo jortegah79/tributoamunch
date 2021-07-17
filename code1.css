@@ -1,86 +1,68 @@
- body {
-     background: #ddd;
-     font-size: 1.3em;
-     font-family: "Courier";
- }
- 
- #title {
-     display: inline-block;
-     margin-left: 40%;
-     padding-top: 20px;
-     border: 1px solid #555;
-     color: #777;
-     text-shadow: 3px 3px #333;
-     text-align: center;
-     box-shadow: 5px 5px #444;
- }
- 
- #tribute-info {
-     margin-left: 40px;
- }
- 
- #image {
-     position: relative;
-     left: 20vw;
-     width: 50vw;
-     border: 10px double #441d11;
- }
- 
- #img-extra {
-     margin-left: 20vw;
-     width: 50vw;
-     border: 10px double #441d11;
- }
- 
- #image-caption {
-     text-align: center;
- }
- 
- #img-extra-caption {
-     text-align: center;
- }
- 
- #tribute-text,
- div ul li,
- #tribute-footer {
-     margin-left: 40px;
- }
- 
- a {
-     text-decoration: none;
-     color: #000000;
- }
- 
- a:hover {
-     color: rgb(37, 105, 182);
- }
- 
- @media (max-width: 600px) {
-     #title {
-         display: inline-block;
-         margin-left: 30%;
-         padding-top: 20px;
-         border: 1px solid #555;
-         color: #777;
-         text-shadow: 3px 3px #333;
-         text-align: center;
-         box-shadow: 5px 5px #444;
-     }
-     #image {
-         position: relative;
-         left: 5vw;
-         width: 70vw;
-         border: 10px double #441d11;
-         transition: width 3s;
-     }
-     #img-extra {
-         margin-left: 5vw;
-         width: 70vw;
-         border: 10px double #441d11;
-     }
-     #tribute-text,
-     div ul li,
-     #tribute-footer {
-         margin-left: 20px;
-     }
- }
+body {
+    background: #ddd;
+    font-size: 1.3em;
+    font-family: "Courier";
+}
+
+#contenedor_titulo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#title {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #555;
+    color: #777;
+    text-shadow: 3px 3px #333;
+    text-align: center;
+    box-shadow: 5px 5px #444;
+}
+
+#tribute-info {
+    margin-left: 40px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 70vw;
+    border: 10px double #444;
+}
+
+#tribute-text,
+div ul li,
+#tribute-footer {
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(37, 105, 182);
+}
+
+@media (max-width: 600px) {
+    #title {
+        display: inline-block;
+        padding: 20px auto;
+        border: 1px solid #555;
+        color: #777;
+        text-shadow: 3px 3px #333;
+        text-align: center;
+        box-shadow: 5px 5px #444;
+    }
+    #tribute-text,
+    div ul li,
+    #tribute-footer {
+        margin-left: 20px;
+    }
+}

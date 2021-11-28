@@ -4,20 +4,14 @@ body {
     font-family: "Courier";
 }
 
-#contenedor_titulo {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
 #title {
     display: block;
     margin: 20px auto;
-    border: 1px solid #555;
-    color: #777;
-    text-shadow: 3px 3px #333;
+    font-size: 3em;
+    color: #444;
+    text-shadow: 8px 10px #777;
     text-align: center;
-    box-shadow: 5px 5px #444;
+    
 }
 #img-div-extra{
  flex-direction:row;

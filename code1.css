@@ -1,5 +1,5 @@
 body {
-    background: #ddd;
+    background: rgb(248, 230, 195);
     font-size: 1.3em;
     font-family: "Courier";
 }
@@ -55,18 +55,19 @@ footer{
     padding-top: 20px;
 }
 @media (max-width: 600px) {
-    #title {
-        display: inline-block;
-        padding: 20px auto;
-        border: 1px solid #555;
-        color: #777;
-        text-shadow: 3px 3px #333;
-        text-align: center;
-        box-shadow: 5px 5px #444;
+   
+    #image {
+        width: 80vw;   
     }
+    #img-extra{
+        width:80vw;
+       
+       margin-top: 30px;
+       }
     #tribute-text,
     div ul li,
     #tribute-footer {
         margin-left: 20px;
+        margin-top:20px;
     }
 }
